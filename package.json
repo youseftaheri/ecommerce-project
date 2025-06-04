@@ -1,7 +1,11 @@
 {
   "name": "ecommerce-project",
+  "workspaces": ["client", "server", "shared"],
+  "private": true,
+  "engines": {
+    "node": ">=22.15.0"
+  },
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,5 +13,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youseftaheri/ecommerce-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youseftaheri/ecommerce-project/issues"
+  },
+  "homepage": "https://github.com/youseftaheri/ecommerce-project#readme",
+  "description": ""
 }
